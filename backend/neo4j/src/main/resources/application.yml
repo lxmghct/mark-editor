@@ -1,0 +1,14 @@
+server:
+    port: 8092
+
+
+spring:
+    application:
+        name: neo4j
+    servlet:
+        multipart:
+            max-file-size: 10TB
+            max-request-size: 10TB
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
